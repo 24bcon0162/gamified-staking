@@ -1,0 +1,16 @@
+[package]
+name = "gamified_staking"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+MyModule = "0xe7038531e5321d983b33b94d5a838608f40eb2acb6419d84b9d04bf8822dd7e3"
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
